@@ -88,8 +88,16 @@
     align-items: center;
 }
 
+.justify-start{
+    justify-content: start;
+}
+
 .justify-center{
     justify-content: center;
+}
+
+.justify-end{
+    justify-content: end;
 }
 
 .gap-8{
@@ -102,6 +110,14 @@
 
 .gap-32{
     gap: 32px;
+}
+
+.gap-64{
+    gap: 64px;
+}
+
+.gap-128{
+    gap: 128px;
 }
 
 /* ------------------------------
@@ -138,6 +154,22 @@
     margin-left: 32px;
 }
 
+.mr-32{
+    margin-right: 32px;
+}
+
+.mb-64{
+    margin-bottom: 64px;
+}
+
+.ml-64{
+    margin-left: 64px;
+}
+
+.mr-64{
+    margin-right: 64px;
+}
+
 .mt-128{
     margin-top: 128px;
 }
@@ -146,8 +178,19 @@
     margin-bottom: 128px;
 }
 
+.ml-128{
+    margin-left: 128px;
+}
+
+.mr-128{
+    margin-right: 128px;
+}
+
 /* padding */
 
+.pb-8{
+    padding-bottom: 8px;
+}
 
 .pb-16{
     padding-bottom: 16px;
@@ -169,6 +212,10 @@
     padding-bottom: 32px;
 }
 
+.pb-64{
+    padding-bottom: 64px;
+}
+
 .pt-128{
     padding-top: 128px;
 }
@@ -183,6 +230,10 @@
 
 .pad{
     padding: 8px 40px;
+}
+
+.p-10{
+    padding: 10px;
 }
 
 /* ------------------------------
@@ -220,6 +271,10 @@
 .beige{
    background-color: #C8A27A;
 }
+/*
+.white{
+    background-color: white;
+}*/
 
 .marron{
     color: #3E2C23;
@@ -230,9 +285,20 @@
     height: 128px;
     width: 128px;
 }
+header{
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    z-index: 1000;
+    background: linear-gradient(to top, rgba(200,162,122,0) 10%, rgba(62,44,35,1) 100%) ;
+}
 
-.h-439{
-    height: 500px;
+.h-600{
+    height: 600px;
+}
+
+.h-550{
+    height: 550px;
 }
 
 .img-section-1{
@@ -240,13 +306,42 @@
     width: 504px;
 }
 
+.img-section-2{
+    height: 317px;
+    width: 208px;
+}
+
+.div-section-3{
+    height: 328px;
+    width: 265px;
+    background-color: white;
+}
+
+.img-section-3{
+    height: 167px;
+    width: 245px;
+    object-fit: cover;
+    object-position: 0px -65px;
+}
+
+.div-section-5{
+    background-color: white;
+    border-radius: 5px;
+    height: 200px;
+}
+
 /* BOUTONS */
 .btn-header{
-    background-color: #C8A27A;
+    background-color: #9b7b5d;
     display: inline-block;
     padding: 12px 38px;
 }
 
 h1{
     display: inline-block;
+}
+
+/* BORDERS */
+.radius-10{
+    border-radius: 10px;
 }
