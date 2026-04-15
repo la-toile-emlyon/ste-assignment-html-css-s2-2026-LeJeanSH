@@ -126,6 +126,10 @@
 
  /* Margin */
 
+.mb-5{
+    margin-bottom: 5px;
+}
+
 .mt-16 {
     margin-top: 16px;
 }
@@ -192,12 +196,20 @@
     padding-bottom: 8px;
 }
 
+.pt-8{
+    padding-top: 8px;
+}
+
 .pb-16{
     padding-bottom: 16px;
 }
 
 .pt-16{
     padding-top: 16px;
+}
+
+.pr-16{
+    padding-right: 16px;
 }
 
 .pb-32{
@@ -216,6 +228,14 @@
     padding-bottom: 64px;
 }
 
+.pl-64{
+    padding-left: 64px;
+}
+
+.pb-80{
+    padding-bottom: 80px;
+}
+
 .pt-128{
     padding-top: 128px;
 }
@@ -228,12 +248,28 @@
     padding-left: 16px;
 }
 
+.pl-32{
+    padding-left: 32px;
+}
+
+.pl-48{
+    padding-left: 48px;
+}
+
 .pad{
     padding: 8px 40px;
 }
 
 .p-10{
     padding: 10px;
+}
+
+.padding-section-5{
+    padding: 20px 10px 10px 10px;
+}
+
+.p-32{
+    padding: 32px;
 }
 
 /* ------------------------------
@@ -271,10 +307,10 @@
 .beige{
    background-color: #C8A27A;
 }
-/*
+
 .white{
     background-color: white;
-}*/
+}
 
 .marron{
     color: #3E2C23;
@@ -283,7 +319,7 @@
 /* TAILLES IMAGES */
 .logo{
     height: 128px;
-    width: 128px;
+    width: 200px;
 }
 header{
     position: sticky;
@@ -330,11 +366,32 @@ header{
     height: 200px;
 }
 
+.mini-image{
+    height: 36px;
+    width: 36px;
+    border-radius: 20px;
+}
+
 /* BOUTONS */
 .btn-header{
     background-color: #9b7b5d;
     display: inline-block;
     padding: 12px 38px;
+}
+
+.btn-seance{
+    background-color: black;
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn-realisation{
+    background-color: pink;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 10px;
 }
 
 h1{
